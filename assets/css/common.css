@@ -1,0 +1,91 @@
+/* 누구나 쓰이는 공용소스 */
+.wrapper{
+    min-width: 1190px;
+}
+.container{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+/* 공용소스 공용화장실 */
+
+.sc-login .sub-area .link-id::before,.sc-login .sub-area .link-join::before,
+.group-theme.list3 .theme-box2 .btn-next,.group-theme.list3 .theme-box2 .btn-next:hover,
+.sc-news .group-title .ic-tile::after,.sc-news .group-title .ic-set::after,
+.sc-news .group-title .link-title::after,.sc-news .group-title .ic-list::after,
+.sc-news .group-media .btn-next:hover .icon,.sc-news .group-media .btn-prev:hover .icon,.sc-news .group-title .link-title::before,
+.sc-news .group-media .btn-prev .icon,.sc-news .group-media .btn-next .icon,
+.service-area .link-junior:hover::after,.service-area .link-bin:hover::after,
+.gnb .group-gnb .shop a::before,.gnb .group-gnb .tv .icon,
+.gnb .group-gnb .mail .icon,.gnb .btn-more::after,.gnb .group-weather .dust2 strong::before,
+.footer .notice-area .notice-more::after,.gnb .group-weather .dust1 strong::before,
+.sc-themecast .btn-more-wrap .btn-more::before,.group-theme.list3 .group-title .title::after,
+.group-theme .theme-wrap .theme-play,.sc-themecast .group-category .btn::after,
+.sc-themecast .info-area .btn-set::before,.sc-themecast 
+.sc-news .group-title .btn-set::after,.sc-login .link-login::before,
+.service-area a::after,.sc-news .group-issue .link-media::after,
+.header .logo a, .header .search-area .btn-submit::after,.sc-sidenews .nav-wrap .btn-nav::after{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 442px 428px;
+}
+.sc-shop .group-add .add-link::before,
+.sc-shop .group-add .thumb-box .plus-one,
+.sc-shop .btn-nav.next::before,.sc-shop .btn-nav.prev::before,.sc-shop .group-add .add-title::before,
+.sc-shop .group-title .title-link a::before,.sc-shop .group-title .title-link a::after{
+    background-size: 129px 101px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/left-icon.png);
+}
+.thumb-box{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.sc-shop .plus-item:hover img,
+.theme-box:hover .thumb-box img, .theme-item:hover img,.goods-link:hover img{
+    transition-duration: .3s;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.thumb-box::after{
+    content: '';
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    border: 1px solid #000;
+    opacity: 0.04;
+    overflow: hidden;
+}
+
+.theme-category{
+    color: #ebaa00;  
+    display: block;
+    font-weight: 700;
+}
+
+.theme-title{
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.title{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+
+}
+
