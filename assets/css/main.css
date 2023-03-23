@@ -956,7 +956,7 @@
     gap: 4px;
 }
 .group-theme.list2 .ad-group .btn-ad{
-    background-image: url(/assets/images/btn.png);
+    background-image: url('../images/btn.png');
     background-position: 0px -20px;
     background-repeat: no-repeat;
     background-size: 100px 90px;
@@ -972,7 +972,7 @@
     display: inline-block;
     width: 6px;
     height: 12px;
-    background: url(/assets/images/right.png) 0 0 no-repeat;
+    background: url('../images/right.png') 0 0 no-repeat;
     background-size: 6px 12px;
     margin-left: 4px;
     vertical-align: -2px;

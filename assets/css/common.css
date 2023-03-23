@@ -35,7 +35,7 @@
 .sc-news .group-title .btn-set::after,.sc-login .link-login::before,
 .service-area a::after,.sc-news .group-issue .link-media::after,
 .header .logo a, .header .search-area .btn-submit::after,.sc-sidenews .nav-wrap .btn-nav::after{
-    background-image: url(../images/sp-bg.png);
+    background-image: url('../images/sp-bg.png');
     background-repeat: no-repeat;
     background-size: 442px 428px;
 }
@@ -45,7 +45,7 @@
 .sc-shop .group-title .title-link a::before,.sc-shop .group-title .title-link a::after{
     background-size: 129px 101px;
     background-repeat: no-repeat;
-    background-image: url(/assets/images/left-icon.png);
+    background-image: url('../images/left-icon.png');
 }
 .thumb-box{
     display: block;
